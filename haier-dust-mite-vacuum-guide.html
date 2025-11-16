@@ -1,0 +1,1214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Haier Y201 • Dust Mite Eliminator Guide</title>
+  <meta name="description" content="Complete guide for Haier Y201 UV-C dust mite vacuum cleaner - Cascade Hideaway exclusive" />
+  <meta name="theme-color" content="#7c3aed" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-start: #f5f3ff;
+      --bg-end: #e9d5ff;
+      --ink: #1e1b4b;
+      --ink-light: #4c1d95;
+      --muted: #6b7280;
+      --brand1: #7c3aed;
+      --brand2: #a855f7;
+      --brand3: #ec4899;
+      --accent: #10b981;
+      --warn: #ef4444;
+      --glass: rgba(255,255,255,.88);
+      --glass-strong: rgba(255,255,255,.95);
+      --glass-border: rgba(124,58,237,.12);
+      --shadow-sm: 0 2px 8px rgba(124,58,237,.08);
+      --shadow: 0 8px 24px rgba(124,58,237,.15);
+      --shadow-lg: 0 20px 48px rgba(124,58,237,.22);
+      --cascade-brand: #7c3aed;
+    }
+    
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-start: #1e1b4b;
+        --bg-end: #312e81;
+        --ink: #f5f3ff;
+        --ink-light: #ddd6fe;
+        --muted: #a78bfa;
+        --glass: rgba(30,27,75,.85);
+        --glass-strong: rgba(30,27,75,.95);
+        --glass-border: rgba(167,139,250,.15);
+        --shadow-sm: 0 4px 12px rgba(124,58,237,.4);
+        --shadow: 0 12px 32px rgba(124,58,237,.5);
+        --shadow-lg: 0 24px 56px rgba(124,58,237,.6);
+      }
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    html, body {
+      height: 100%;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    
+    body {
+      font-family: Inter, system-ui, -apple-system, sans-serif;
+      color: var(--ink);
+      background: linear-gradient(135deg, var(--bg-start), var(--bg-end));
+      background-attachment: fixed;
+      line-height: 1.6;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .bg-animation {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      opacity: 0.4;
+      pointer-events: none;
+    }
+    
+    .bg-circle {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(60px);
+      animation: float 20s infinite ease-in-out;
+    }
+    
+    .bg-circle:nth-child(1) {
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, var(--brand1), transparent);
+      top: -100px;
+      left: -100px;
+      animation-delay: 0s;
+    }
+    
+    .bg-circle:nth-child(2) {
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, var(--brand2), transparent);
+      bottom: -150px;
+      right: -150px;
+      animation-delay: 7s;
+    }
+    
+    .bg-circle:nth-child(3) {
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, var(--brand3), transparent);
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation-delay: 14s;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translate(0, 0) scale(1); }
+      33% { transform: translate(30px, -30px) scale(1.1); }
+      66% { transform: translate(-30px, 30px) scale(0.9); }
+    }
+
+    .cascade-watermark {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      font-size: 0.75rem;
+      color: var(--muted);
+      opacity: 0.5;
+      background: var(--glass);
+      backdrop-filter: blur(12px);
+      padding: 8px 14px;
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      box-shadow: var(--shadow-sm);
+      z-index: 100;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      transition: opacity 0.3s ease;
+    }
+    
+    .cascade-watermark:hover {
+      opacity: 0.8;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: clamp(20px, 4vw, 60px) clamp(16px, 4vw, 40px);
+      position: relative;
+      z-index: 1;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+      animation: fadeInDown 0.8s ease;
+    }
+
+    @keyframes fadeInDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .logo-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: var(--glass-strong);
+      backdrop-filter: blur(16px);
+      padding: 16px 32px;
+      border-radius: 50px;
+      border: 1.5px solid var(--glass-border);
+      box-shadow: var(--shadow);
+      margin-bottom: 24px;
+      animation: glow 3s ease-in-out infinite;
+    }
+
+    @keyframes glow {
+      0%, 100% { box-shadow: var(--shadow), 0 0 20px rgba(124,58,237,0.3); }
+      50% { box-shadow: var(--shadow-lg), 0 0 40px rgba(124,58,237,0.5); }
+    }
+
+    .logo-icon {
+      font-size: 2.5rem;
+      line-height: 1;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 900;
+      letter-spacing: -0.03em;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2), var(--brand3));
+      background-size: 200% 200%;
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 12px;
+      animation: gradientShift 4s ease infinite;
+    }
+
+    @keyframes gradientShift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      font-weight: 600;
+      margin-bottom: 28px;
+    }
+
+    .actions {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 24px;
+      border-radius: 50px;
+      font-weight: 700;
+      font-size: 0.95rem;
+      cursor: pointer;
+      border: none;
+      background: var(--glass-strong);
+      color: var(--brand2);
+      border: 1.5px solid var(--glass-border);
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+      transition: all 0.3s cubic-bezier(0.4, 0.2, 1);
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: var(--shadow-lg);
+      background: var(--glass);
+    }
+
+    .btn:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .btn-video {
+      background: linear-gradient(135deg, var(--brand1), var(--brand2)) !important;
+      color: white !important;
+      font-size: 1.05rem !important;
+      padding: 16px 28px !important;
+      box-shadow: 0 8px 24px rgba(124,58,237,0.4) !important;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    .btn-video:hover {
+      box-shadow: 0 12px 32px rgba(124,58,237,0.6) !important;
+      transform: translateY(-3px) scale(1.05) !important;
+    }
+
+    @keyframes pulse {
+      0%, 100% { box-shadow: 0 8px 24px rgba(124,58,237,0.4); }
+      50% { box-shadow: 0 12px 32px rgba(124,58,237,0.6); }
+    }
+
+    .progress-container {
+      background: var(--glass);
+      backdrop-filter: blur(16px);
+      border-radius: 24px;
+      border: 1.5px solid var(--glass-border);
+      box-shadow: var(--shadow);
+      padding: 24px;
+      margin-bottom: 32px;
+      animation: fadeIn 0.8s ease 0.2s backwards;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+      font-weight: 700;
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+
+    .progress-bar-bg {
+      height: 12px;
+      background: var(--glass-border);
+      border-radius: 50px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .progress-bar {
+      height: 100%;
+      background: linear-gradient(90deg, var(--brand1), var(--brand2));
+      border-radius: 50px;
+      transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .progress-bar::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+      animation: shimmer 2s infinite;
+    }
+
+    @keyframes shimmer {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--glass);
+      backdrop-filter: blur(16px);
+      border-radius: 24px;
+      border: 1.5px solid var(--glass-border);
+      box-shadow: var(--shadow);
+      padding: 32px;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      animation: fadeIn 0.8s ease backwards;
+    }
+
+    .card:nth-child(1) { animation-delay: 0.1s; }
+    .card:nth-child(2) { animation-delay: 0.2s; }
+    .card:nth-child(3) { animation-delay: 0.3s; }
+    .card:nth-child(4) { animation-delay: 0.4s; }
+
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--brand1);
+    }
+
+    .card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .card-icon {
+      font-size: 2rem;
+      line-height: 1;
+    }
+
+    h2 {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 800;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+
+    .card-description {
+      color: var(--muted);
+      font-size: 1rem;
+      margin-bottom: 24px;
+      font-weight: 500;
+    }
+
+    .checklist {
+      list-style: none;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 14px 0;
+      border-bottom: 1px solid var(--glass-border);
+      transition: background 0.2s ease;
+    }
+
+    .checklist li:last-child {
+      border-bottom: none;
+    }
+
+    .checklist li:hover {
+      background: rgba(124,58,237,0.05);
+      margin: 0 -16px;
+      padding: 14px 16px;
+      border-radius: 12px;
+    }
+
+    .checklist input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      cursor: pointer;
+      accent-color: var(--brand1);
+      margin-top: 2px;
+      flex-shrink: 0;
+    }
+
+    .checklist label {
+      cursor: pointer;
+      flex: 1;
+      font-size: 1rem;
+      color: var(--ink-light);
+      font-weight: 500;
+      line-height: 1.5;
+      transition: color 0.2s ease;
+    }
+
+    .checklist input:checked + label {
+      color: var(--muted);
+      text-decoration: line-through;
+    }
+
+    .steps {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .step {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      padding: 24px;
+      background: rgba(124,58,237,0.03);
+      border-radius: 16px;
+      border: 1px solid var(--glass-border);
+      transition: all 0.3s ease;
+    }
+
+    .step:hover {
+      background: rgba(124,58,237,0.08);
+      transform: translateX(4px);
+      border-color: var(--brand1);
+    }
+
+    .step-number {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--brand1), var(--brand2));
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+      box-shadow: 0 4px 12px rgba(124,58,237,0.3);
+    }
+
+    .step h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--ink);
+      margin-bottom: 8px;
+    }
+
+    .step p {
+      color: var(--ink-light);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    .alert {
+      background: linear-gradient(135deg, rgba(239,68,68,0.08), rgba(239,68,68,0.04));
+      border: 1.5px solid rgba(239,68,68,0.3);
+      border-radius: 16px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+
+    .alert strong {
+      display: block;
+      color: var(--warn);
+      font-size: 1.1rem;
+      margin-bottom: 12px;
+      font-weight: 800;
+    }
+
+    .alert ul {
+      margin-left: 20px;
+      color: var(--ink-light);
+    }
+
+    .alert li {
+      margin: 8px 0;
+      line-height: 1.6;
+    }
+
+    .tip {
+      background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(16,185,129,0.04));
+      border: 1.5px solid rgba(16,185,129,0.3);
+      border-radius: 16px;
+      padding: 20px;
+      margin-top: 24px;
+    }
+
+    .tip strong {
+      display: block;
+      color: var(--accent);
+      font-size: 1.1rem;
+      margin-bottom: 8px;
+      font-weight: 800;
+    }
+
+    .tip p {
+      color: var(--ink-light);
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .info-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 24px;
+    }
+
+    .specs-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .spec-item {
+      background: rgba(124,58,237,0.05);
+      border-radius: 12px;
+      padding: 16px;
+      text-align: center;
+      border: 1px solid var(--glass-border);
+      transition: all 0.2s ease;
+    }
+
+    .spec-item:hover {
+      background: rgba(124,58,237,0.1);
+      transform: translateY(-2px);
+    }
+
+    .spec-icon {
+      font-size: 1.5rem;
+      margin-bottom: 8px;
+    }
+
+    .spec-label {
+      font-size: 0.8rem;
+      color: var(--muted);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 4px;
+    }
+
+    .spec-value {
+      font-size: 1.1rem;
+      color: var(--ink);
+      font-weight: 800;
+    }
+
+    details {
+      background: rgba(124,58,237,0.03);
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 16px;
+      border: 1px solid var(--glass-border);
+      transition: all 0.2s ease;
+    }
+
+    details:hover {
+      background: rgba(124,58,237,0.06);
+    }
+
+    details[open] {
+      background: rgba(124,58,237,0.08);
+      border-color: var(--brand1);
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 1.05rem;
+      color: var(--ink);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: color 0.2s ease;
+    }
+
+    summary:hover {
+      color: var(--brand1);
+    }
+
+    details[open] summary {
+      margin-bottom: 16px;
+      color: var(--brand1);
+    }
+
+    details ul {
+      margin-left: 20px;
+      color: var(--ink-light);
+    }
+
+    details li {
+      margin: 10px 0;
+      line-height: 1.6;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 32px 20px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+
+    @media (max-width: 768px) {
+      .container {
+        padding: 20px 16px;
+      }
+
+      .card {
+        padding: 24px;
+      }
+
+      .step {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .info-row {
+        grid-template-columns: 1fr;
+      }
+
+      .specs-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-animation">
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+    <div class="bg-circle"></div>
+  </div>
+
+  <div class="cascade-watermark">Cascade Hideaway</div>
+
+  <div class="container">
+    <header>
+      <div class="logo-badge">
+        <span class="logo-icon">🧹</span>
+        <span style="font-weight: 800; font-size: 1.2rem; letter-spacing: -0.02em;">Haier</span>
+      </div>
+      <h1>Haier Y201 • Dust Mite Eliminator</h1>
+      <p class="subtitle">UV-C Sterilization & Deep Cleaning Guide</p>
+      <div class="actions">
+        <a href="https://www.youtube.com/watch?v=Q_idjb4aydY" target="_blank" class="btn btn-video">📺 Watch Video Guide</a>
+        <button class="btn" id="copyLinkBtn">🔗 Copy Link</button>
+      </div>
+    </header>
+
+    <div class="progress-container">
+      <div class="progress-label">
+        <span>✨ Cleaning Preparation</span>
+        <span id="progressText">0%</span>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar" id="progressBar" style="width: 0%;"></div>
+      </div>
+    </div>
+
+    <main>
+      <section class="card">
+        <div class="card-header">
+          <span class="card-icon">✅</span>
+          <h2>Before First Use</h2>
+        </div>
+        <div class="card-description">Essential preparation steps for optimal performance</div>
+
+        <ul class="checklist" id="needList">
+          <li>
+            <input type="checkbox" id="check1" />
+            <label for="check1">Unpack vacuum and verify all components included</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check2" />
+            <label for="check2">Remove protective packaging from device</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check3" />
+            <label for="check3">Inspect dust container and filter assembly</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check4" />
+            <label for="check4">Plug power adapter into electrical outlet</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check5" />
+            <label for="check5">Allow device to charge fully before first use</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check6" />
+            <label for="check6">Identify target cleaning surfaces (mattress, sofa, pillows)</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check7" />
+            <label for="check7">Read UV-C safety precautions carefully</label>
+          </li>
+          <li>
+            <input type="checkbox" id="check8" />
+            <label for="check8">Test power button and verify indicator lights</label>
+          </li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <span class="card-icon">🔬</span>
+          <h2>How It Works</h2>
+        </div>
+        <div class="card-description">Understanding the triple-action cleaning system</div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div>
+              <h3>🥁 High-Frequency Beating</h3>
+              <p>Vibrating pads at 8000+ beats per minute dislodge dust mites, debris, and allergens embedded deep within fabric fibers.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div>
+              <h3>☀️ UV-C Sterilization</h3>
+              <p>253.7nm UV-C light destroys DNA and RNA of mites, bacteria, and viruses, eliminating up to 99.9% of microorganisms on contact.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div>
+              <h3>💨 Powerful Suction</h3>
+              <p>14,000Pa suction removes dislodged mites, allergens, dead skin cells, and debris through dual cup filtration system.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div>
+              <h3>🌡️ Warm Air Technology</h3>
+              <p>50°C heated air reduces humidity and creates inhospitable environment for dust mite reproduction and survival.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip">
+          <strong>💡 Why UV-C Light Matters</strong>
+          <p>UV-C light at 253.7nm wavelength penetrates mite cell structure and disrupts their DNA, preventing reproduction. While it takes sustained exposure to kill adult mites, it's highly effective against mite eggs in just seconds, reducing future populations significantly.</p>
+        </div>
+      </section>
+
+      <section class="card card-steps">
+        <div class="card-header">
+          <span class="card-icon">🔄</span>
+          <h2>Proper Usage Steps</h2>
+        </div>
+        <div class="card-description">Follow these steps for maximum effectiveness</div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div>
+              <h3>🔌 Power On Device</h3>
+              <p>Press power button to activate vacuum. Indicator lights will illuminate showing device is ready.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div>
+              <h3>📍 Place Flat on Surface</h3>
+              <p>Position vacuum flat against mattress, sofa, or fabric surface. Apply slight downward pressure to activate UV-C light. Safety sensors ensure UV light only operates when properly positioned.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div>
+              <h3>🐌 Move SLOWLY</h3>
+              <p>Critical: Glide vacuum slowly across surface (approximately 6 inches per 3-5 seconds). Slow movement allows UV-C light sufficient exposure time to work effectively. Quick passes are ineffective.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div>
+              <h3>🔄 Overlap Passes</h3>
+              <p>Cover entire surface with overlapping passes in both directions. Focus extra time on areas with highest skin contact (pillow zones, center of mattress).</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">5</div>
+            <div>
+              <h3>✅ Complete & Store</h3>
+              <p>After cleaning, empty dust container. Store vacuum in charging base in well-ventilated area.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert">
+          <strong>⚠️ Critical Safety Requirements</strong>
+          <ul>
+            <li>NEVER look directly at UV-C light - can damage eyes</li>
+            <li>NEVER use on wet surfaces or fabrics</li>
+            <li>UV light only activates when flat against surface (safety feature)</li>
+            <li>Keep children and pets away during operation</li>
+            <li>Do not operate with damaged power cord</li>
+            <li>Unplug during maintenance or cleaning</li>
+          </ul>
+        </div>
+
+        <div class="tip">
+          <strong>💡 Pro Cleaning Technique</strong>
+          <p>For best results, vacuum entire mattress once per week. Move device at approximately 6 inches per 3-5 seconds. For heavily infested areas or allergy sufferers, clean 2-3 times weekly. UV light window on device allows you to verify light is operating properly during use.</p>
+        </div>
+      </section>
+
+      <div class="info-row">
+        <section class="card">
+          <div class="card-header">
+            <span class="card-icon">🎯</span>
+            <h2>Cleaning Schedule</h2>
+          </div>
+          <div class="card-description">Recommended maintenance frequency</div>
+
+          <ul style="list-style: none; padding: 0;">
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--glass-border);">
+              <strong>Mattresses:</strong> Every 7-10 days (both sides quarterly)
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--glass-border);">
+              <strong>Pillows:</strong> Every 7-14 days (wash covers monthly at 60°C)
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--glass-border);">
+              <strong>Sofas/Chairs:</strong> Every 14 days for fabric surfaces
+            </li>
+            <li style="padding: 12px 0; border-bottom: 1px solid var(--glass-border);">
+              <strong>Carpets:</strong> Monthly deep cleaning with vacuum
+            </li>
+            <li style="padding: 12px 0;">
+              <strong>Allergy Season:</strong> Increase frequency to 2-3× weekly
+            </li>
+          </ul>
+
+          <div class="tip" style="margin-top: 16px;">
+            <strong>💡 Best Practice</strong>
+            <p>Don't make bed immediately after waking. Air room for 30+ minutes first - this lets moisture evaporate and exposes mites to less favorable conditions before vacuuming.</p>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-header">
+            <span class="card-icon">📊</span>
+            <h2>Specifications</h2>
+          </div>
+          <div class="card-description">Technical details at a glance</div>
+
+          <div class="specs-grid">
+            <div class="spec-item">
+              <div class="spec-icon">💪</div>
+              <div class="spec-label">Suction</div>
+              <div class="spec-value">14,000Pa</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-icon">☀️</div>
+              <div class="spec-label">UV-C</div>
+              <div class="spec-value">253.7nm</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-icon">🥁</div>
+              <div class="spec-label">Beating</div>
+              <div class="spec-value">8000/min</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-icon">🌡️</div>
+              <div class="spec-label">Warm Air</div>
+              <div class="spec-value">50°C</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-icon">🔬</div>
+              <div class="spec-label">Elimination</div>
+              <div class="spec-value">99.9%</div>
+            </div>
+            <div class="spec-item">
+              <div class="spec-icon">🏷️</div>
+              <div class="spec-label">Model</div>
+              <div class="spec-value">Y201</div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="card">
+        <div class="card-header">
+          <span class="card-icon">🧹</span>
+          <h2>Maintenance & Care</h2>
+        </div>
+        <div class="card-description">Keep your vacuum performing optimally</div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <div>
+              <h3>🗑️ Empty Dust Container</h3>
+              <p>After each use, detach and empty dual dust containers. Tap gently to remove all debris. Do not allow to become completely full.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">2</div>
+            <div>
+              <h3>🌊 Clean Filter System</h3>
+              <p>Remove HEPA filter every 2-4 weeks. Rinse with water and allow to dry COMPLETELY (24+ hours) before reinstalling. Never reinstall wet filter - will damage motor.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">3</div>
+            <div>
+              <h3>💡 Clean UV-C Lamp</h3>
+              <p>Wipe UV lamp window with soft cloth and alcohol every month. Avoid touching with fingers - oils reduce sterilization effectiveness.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">4</div>
+            <div>
+              <h3>🧽 Exterior Cleaning</h3>
+              <p>Wipe exterior with soft, slightly damp cloth. Never immerse in water. Avoid harsh chemicals or abrasive cleaners.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">5</div>
+            <div>
+              <h3>🔄 Replace Filter</h3>
+              <p>Replace HEPA filter every 12-18 months depending on usage frequency. Use only genuine Haier replacement filters.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="alert">
+          <strong>⚠️ Critical Maintenance Rules</strong>
+          <ul>
+            <li>NEVER wash filter with vacuum cleaner - hand rinse only</li>
+            <li>NEVER use vacuum cleaner on filter itself</li>
+            <li>NEVER operate with wet filter or dust container</li>
+            <li>Always unplug before any maintenance</li>
+            <li>Do not disassemble device beyond dust container/filter</li>
+          </ul>
+        </div>
+
+        <div class="tip">
+          <strong>💡 Storage Tips</strong>
+          <p>Store vacuum in charging base when not in use. If storing long-term, ensure completely clean and dry. Turn on for a few minutes monthly to maintain motor performance. Store in cool, ventilated area away from direct sunlight.</p>
+        </div>
+      </section>
+
+      <section class="card card-trouble">
+        <div class="card-header">
+          <span class="card-icon">🔧</span>
+          <h2>Troubleshooting</h2>
+        </div>
+        <div class="card-description">Common issues and solutions</div>
+
+        <details>
+          <summary>💡 UV-C light not turning on</summary>
+          <ul>
+            <li>Ensure vacuum is placed flat against surface - safety sensors prevent activation when lifted</li>
+            <li>Apply slight downward pressure to trigger sensor</li>
+            <li>Check UV light indicator window for blue glow when properly positioned</li>
+            <li>Verify device is powered on and charged</li>
+            <li>Clean UV lamp window if dirty</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>💨 Weak suction or poor performance</summary>
+          <ul>
+            <li>Empty dust containers - overfull containers reduce suction dramatically</li>
+            <li>Clean or replace HEPA filter if clogged</li>
+            <li>Check for blockages in suction pathway</li>
+            <li>Ensure filter is completely dry after washing</li>
+            <li>Verify dust container is properly sealed/installed</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>🔥 Device overheating and shutting down</summary>
+          <ul>
+            <li>Overheat protection activated - completely normal safety feature</li>
+            <li>Allow device to rest for 30+ minutes before restarting</li>
+            <li>Clean filter and dust container to improve airflow</li>
+            <li>Do not block air vents during operation</li>
+            <li>Avoid continuous use beyond 15-20 minutes</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>🔊 Unusual noise during operation</summary>
+          <ul>
+            <li>Check for debris or obstructions in beating mechanism</li>
+            <li>Verify dust container is properly installed</li>
+            <li>Ensure filter is correctly seated</li>
+            <li>Clean beating pads if accumulated debris present</li>
+            <li>Contact service if motor noise persists</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>🔋 Device won't charge or power on</summary>
+          <ul>
+            <li>Verify power adapter is plugged into working outlet</li>
+            <li>Check charging contacts are clean and aligned</li>
+            <li>Inspect power cord for damage</li>
+            <li>Try different outlet to rule out electrical issue</li>
+            <li>Allow longer initial charging time (3-4 hours minimum)</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>❓ Not seeing visible results</summary>
+          <ul>
+            <li>Remember: dust mites are microscopic - you won't see them</li>
+            <li>Check dust container after use - should see fine dust/debris</li>
+            <li>Ensure moving vacuum SLOWLY (6 inches per 3-5 seconds)</li>
+            <li>Increase cleaning frequency for heavily infested areas</li>
+            <li>Results are cumulative - consistent use shows best improvement</li>
+          </ul>
+        </details>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <span class="card-icon">🦠</span>
+          <h2>Understanding Dust Mites</h2>
+        </div>
+        <div class="card-description">Know your microscopic enemy</div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">❓</div>
+            <div>
+              <h3>What Are Dust Mites?</h3>
+              <p>Microscopic arachnids (relatives of spiders) invisible to naked eye. They feed on dead skin cells humans shed daily. A single mattress can harbor millions of dust mites.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">⚠️</div>
+            <div>
+              <h3>Health Impact</h3>
+              <p>Mite feces and decomposing bodies contain proteins triggering 80% of allergies worldwide. Primary cause of allergic rhinitis, asthma, eczema, skin rashes, and sleep disturbances.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">🏠</div>
+            <div>
+              <h3>Where They Hide</h3>
+              <p>Thrive in warm, humid environments: mattresses (especially), pillows, sofas, carpets, curtains. Most active at night when humidity is higher. Burrow deep during day.</p>
+            </div>
+          </div>
+
+          <div class="step">
+            <div class="step-number">🎯</div>
+            <div>
+              <h3>Prevention Strategy</h3>
+              <p>Regular vacuuming with UV-C technology, maintain 50% humidity or less, wash bedding at 60°C+ monthly, air mattresses daily, use mattress protectors, reduce bedroom clutter.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="tip">
+          <strong>💡 Did You Know?</strong>
+          <p>Humans shed approximately 1.5 grams of dead skin cells daily - enough to feed millions of dust mites. A single dust mite produces about 20 waste droppings per day, and these allergen-laden droppings can remain potent for years even after the mite dies.</p>
+        </div>
+      </section>
+
+      <section class="card">
+        <div class="card-header">
+          <span class="card-icon">⚠️</span>
+          <h2>Safety Precautions</h2>
+        </div>
+        <div class="card-description">Important safety information</div>
+
+        <div class="alert">
+          <strong>⚠️ UV-C Light Safety</strong>
+          <ul>
+            <li>UV-C radiation can irritate eyes and skin with direct exposure</li>
+            <li>Never look directly at UV-C lamp when activated</li>
+            <li>Safety sensors prevent UV light activation when vacuum is lifted</li>
+            <li>Keep face and hands away from UV light window during operation</li>
+            <li>Do not attempt to bypass safety sensors</li>
+            <li>Device does not cause skin cancer or cataracts when used properly</li>
+          </ul>
+        </div>
+
+        <div class="alert" style="margin-top: 16px;">
+          <strong>⚠️ Operational Safety</strong>
+          <ul>
+            <li>Use only on dry fabric surfaces - never on wet materials</li>
+            <li>Do not use outdoors or in humid environments</li>
+            <li>Keep children and pets away during operation</li>
+            <li>Never immerse device in water or liquids</li>
+            <li>Do not use with damaged power cord or adapter</li>
+            <li>Unplug immediately if motor fails or device is dropped</li>
+            <li>Allow device to cool if overheating protection activates</li>
+            <li>Do not block air vents during use</li>
+          </ul>
+        </div>
+
+        <div class="alert" style="margin-top: 16px;">
+          <strong>⚠️ Maintenance Safety</strong>
+          <ul>
+            <li>Always unplug before cleaning or maintenance</li>
+            <li>Never operate with wet filter - will damage motor permanently</li>
+            <li>Do not disassemble device beyond dust container/filter</li>
+            <li>Use only authorized repair personnel for internal repairs</li>
+            <li>Do not use harsh chemicals, gasoline, or abrasive cleaners</li>
+            <li>Ensure hands are completely dry when handling device</li>
+          </ul>
+        </div>
+
+        <div class="tip">
+          <strong>💡 Maximize Safety & Effectiveness</strong>
+          <p>The vacuum's safety sensors are your friend - they ensure UV-C light only operates when properly positioned against fabric. This protects you while ensuring maximum effectiveness. Always maintain slow, deliberate movements for best results.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2024 Haier • Model Y201 Dust Mite Eliminator Guide • For complete details, refer to the official manual</p>
+      <p style="margin-top: 8px; font-size: 0.85rem;">⏰ Last updated: <span id="lastUpdated"></span></p>
+      <p style="margin-top: 12px; font-size: 0.85rem;">📺 Reference Video: <a href="https://www.youtube.com/watch?v=Q_idjb4aydY" target="_blank" style="color: var(--brand1);">HeadsUp Channel UV-C Review</a></p>
+    </footer>
+  </div>
+
+  <script>
+    const videoURL = "https://www.youtube.com/watch?v=Q_idjb4aydY";
+    
+    document.getElementById("lastUpdated").textContent = new Date().toLocaleDateString(undefined, {
+      year: "numeric",
+      month: "long",
+      day: "numeric"
+    });
+
+    document.getElementById("copyLinkBtn")?.addEventListener("click", async (e) => {
+      try {
+        await navigator.clipboard.writeText(videoURL);
+        e.currentTarget.innerHTML = "✅ Copied!";
+        setTimeout(() => {
+          e.currentTarget.innerHTML = "🔗 Copy Link";
+        }, 2000);
+      } catch {
+        e.currentTarget.innerHTML = "📋 Press Ctrl+C";
+      }
+    });
+
+    function updateProgress() {
+      const checks = document.querySelectorAll('#needList input[type="checkbox"]');
+      const done = Array.from(checks).filter(c => c.checked).length;
+      const percent = Math.round((done / checks.length) * 100);
+      
+      document.getElementById("progressBar").style.width = percent + "%";
+      document.getElementById("progressText").textContent = percent + "%";
+      
+      if (percent === 100) {
+        document.getElementById("progressText").textContent = "🎉 Ready!";
+      }
+    }
+
+    document.getElementById("needList")?.addEventListener("change", updateProgress);
+    updateProgress();
+
+    const checkboxes = document.querySelectorAll('#needList input[type="checkbox"]');
+    checkboxes.forEach((cb, i) => {
+      const saved = localStorage.getItem(`haier-check-${i}`);
+      if (saved === "true") cb.checked = true;
+      
+      cb.addEventListener("change", () => {
+        localStorage.setItem(`haier-check-${i}`, cb.checked);
+        updateProgress();
+      });
+    });
+  </script>
+</body>
+</html>
